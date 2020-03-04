@@ -1,5 +1,8 @@
 language: c
 jobs:
   include:
-    - script: cd 01_overview && make
-    - script: cd 02_simple_examples/iteration_1 && make
+    - stage: test
+      name: "Overview"
+      script: ./01_overview/test
+    - script: ./02_simple_examples/iteration_1/test
+      name: "Simple Examples"
