@@ -1,3 +1,6 @@
 language: c
-script:
-  - cd 01_overview && make
+jobs:
+  include:
+    - stage: test
+      script: cd 01_overview && make
+      script: cd 02_simple_examples/iteration_1 && make
