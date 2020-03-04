@@ -2,4 +2,15 @@
 
 set -eou pipefail
 
-echo 'test'
+function main {
+	for iter in `iterations`; do
+		cd $iter && make
+	done
+}
+
+function iterations {
+	root="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+	ls -d $root/*/
+}
+
+main

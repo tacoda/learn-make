@@ -2,4 +2,5 @@
 
 set -eou pipefail
 
-make
+scriptpath="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+cd $scriptpath && make

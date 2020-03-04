@@ -4,5 +4,5 @@ jobs:
     - stage: test
       name: "Overview"
       script: ./01_overview/test
-    - script: ./02_simple_examples/iteration_1/test
+    - script: ./02_simple_examples/test
       name: "Simple Examples"
