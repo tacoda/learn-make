@@ -6,3 +6,5 @@ jobs:
       script: ./01_overview/test
     - script: ./02_simple_examples/test
       name: "Simple Examples"
+    - script: ./03_variables/test
+      name: "Variables"
