@@ -8,3 +8,5 @@ jobs:
       name: "Simple Examples"
     - script: ./03_variables/test
       name: "Variables"
+    - script: ./04_implicit_commands/test
+      name: "Implicit Commands"
