@@ -12,5 +12,5 @@ jobs:
       name: "Variables"
     - script: ./04_implicit_commands/test
       name: "Implicit Commands"
-    - script: ./05_wildcard_chars
+    - script: ./05_wildcard_chars/test
       name: "Wildcard Characters"
