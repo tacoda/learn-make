@@ -1,12 +1,16 @@
 language: c
 jobs:
   include:
-    - stage: test
+    # - stage: test
+    #   name: "Overview"
+    #   script: ./01_overview/test
+    - script: ./01_overview/test
       name: "Overview"
-      script: ./01_overview/test
     - script: ./02_simple_examples/test
       name: "Simple Examples"
     - script: ./03_variables/test
       name: "Variables"
     - script: ./04_implicit_commands/test
       name: "Implicit Commands"
+    - script: ./05_wildcard_chars
+      name: "Wildcard Characters"
