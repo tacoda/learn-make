@@ -43,5 +43,11 @@ Implicit commands: Probably one of the most confusing parts about Make is the hi
 We can use wildcards in the target, prerequisites, or commands.
 Valid wildcards are `*, ?, [...]`
 
+## The Wildcard Function
+
+[Makefile](./06_wildcard_function/Makefile)
+
 We CANNOT use wildcards in other places, like variable declarations or function arguments
 Use the wildcard function instead.
+
+{{#inlcude 06_wildcard_function/Makefile}}
