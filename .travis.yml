@@ -1,9 +1,6 @@
 language: c
 jobs:
   include:
-    # - stage: test
-    #   name: "Overview"
-    #   script: ./01_overview/test
     - script: ./01_overview/test
       name: "Overview"
     - script: ./02_simple_examples/test
