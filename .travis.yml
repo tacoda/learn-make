@@ -12,4 +12,4 @@ jobs:
     - script: ./05_wildcard_chars/test
       name: "Wildcard Characters"
     - script: ./06_wildcard_function/test
-      name: "Wildcard Characters"
+      name: "The Wildcard Function"
